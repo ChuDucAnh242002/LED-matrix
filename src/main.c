@@ -111,7 +111,9 @@ int main()
 
 	    //setup screen
 	    setup();
-
+		SetPixel(4,7,186,85,211);
+		run(4);
+		open_line(4);
 
 
 	    Xil_ExceptionEnable();
